@@ -31,13 +31,16 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 mb-12">
-            <button className="bg-gold hover:bg-gold-light text-base text-black whitespace-nowrap flex items-center gap-3 rounded-lg px-8 py-4 font-semibold">
+            <a
+              href="#contact"
+              className="bg-gold hover:bg-gold-light text-base text-black whitespace-nowrap flex items-center gap-3 rounded-lg px-8 py-4 font-semibold"
+            >
               Request Consultation
               <ArrowRight className="ml-2 w-5 h-5" />
-            </button>
+            </a>
           </div>
 
-          <div className="flex flex-row justify-between px-5 md:px-0 sm:flex-row md:items-center md:justify-center space-y-4 sm:space-y-0 sm:space-x-12 text-gray-300">
+          <div className="flex flex-col md:flex-row justify-between px-5 md:px-0 sm:flex-row md:items-center md:justify-center space-y-4 sm:space-y-0 sm:space-x-12 text-gray-300">
             <a
               href="#contact"
               className="text-gold text-lg py-2.5 px-7 rounded-full border font-medium"

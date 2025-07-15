@@ -24,9 +24,9 @@ const Header = () => {
               <Phone className="text-black w-5 h-5" />
               <span className="font-medium">09178297891</span>
             </div>
-            <button className="bg-gold py-2.5 px-5 rounded-lg hover:bg-gold-light text-black font-medium">
+            {/* <button className="bg-gold py-2.5 px-5 rounded-lg hover:bg-gold-light text-black font-medium">
               Request Consultation
-            </button>
+            </button> */}
           </div>
           <div className="md:hidden">
             <button
@@ -46,9 +46,9 @@ const Header = () => {
                 <Phone className="text-gold w-4 h-4" />
                 <span className="font-medium">09178297891</span>
               </div>
-              <button className="bg-gold  w-full py-2.5 px-5 rounded-lg hover:bg-gold-light text-black font-medium">
+              {/* <button className="bg-gold  w-full py-2.5 px-5 rounded-lg hover:bg-gold-light text-black font-medium">
                 Request Consultation
-              </button>
+              </button> */}
             </div>
           </div>
         )}

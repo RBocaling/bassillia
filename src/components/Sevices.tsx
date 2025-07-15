@@ -159,10 +159,6 @@ const Services = () => {
           ))}
         </div>
       </div>
-      <button className=" px-5 py-3 rounded-lg mt-9 bg-gold hover:bg-gold-light font-medium text-black flex items-center gap-5">
-        Discuss your Legal Needs
-        <ArrowRight className="ml-2 w-5 h-5" />
-      </button>
     </section>
   );
 };

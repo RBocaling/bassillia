@@ -91,7 +91,7 @@ const Contact = () => {
                   type="submit"
                   className="w-full bg-gold rounded-lg hover:bg-gold-light text-black font-medium font-semibold py-3"
                 >
-                  Request Consultation
+                  Submit
                 </button>
               </form>
             </div>
