@@ -1,0 +1,36 @@
+export type VehicleType =  {
+  vehicle_id: string;
+  vehicle_name: string;
+  series: string;
+  plate_number: string;
+  brand: string;
+  year_model: number;
+  capacity: number;
+  body_type: string;
+  address: string;
+  registration_date: string;
+  mv_file_no: string;
+  chassis_no: string;
+  engine_no: string;
+  insurance_name: string;
+  insurance_policy_number: string;
+  insurance_expiry_date: string;
+  or_expiry: string;
+  spa: boolean;
+  or_src: string;
+  cr_src: string;
+  spa_src: string;
+  front_src: string;
+  back_src: string;
+  side_src: string;
+  price: string;
+  vehicle_type_id: number;
+  vehicle_type: string;
+  status_id: number;
+  description: string;
+  approved_by: string;
+  kyc: boolean;
+  driver: Record<string, any>;
+  operator: Record<string, any>;
+  is_booked: boolean;
+}
