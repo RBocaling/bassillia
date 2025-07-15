@@ -1,6 +1,4 @@
-import React from 'react';
-
-const SubtitleGradient = ({text, isGold=false}:any) => {
+const SubtitleGradient = ({ text, isGold = false }: any) => {
   return (
     <p
       className={`${
@@ -12,6 +10,6 @@ const SubtitleGradient = ({text, isGold=false}:any) => {
       {text}
     </p>
   );
-}
+};
 
 export default SubtitleGradient;

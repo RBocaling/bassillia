@@ -1,5 +1,4 @@
-import React from 'react';
-import SubtitleGradient from './SubtitleGradient';
+import SubtitleGradient from "./SubtitleGradient";
 
 const About = () => {
   return (
@@ -53,6 +52,6 @@ const About = () => {
       </div>
     </section>
   );
-}
+};
 
 export default About;

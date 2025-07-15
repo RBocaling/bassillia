@@ -1,33 +1,32 @@
-import React from 'react';
-import SubtitleGradient from './SubtitleGradient';
+import SubtitleGradient from "./SubtitleGradient";
 
 const CoreValue = () => {
-    const coreValues = [
-      {
-        icon: "/icon3.png",
-        title: "Justice & Integrity",
-        description:
-          "We are committed to upholding justice and maintaining the highest standards of integrity in all our legal practice.",
-      },
-      {
-        icon: "/icon2.png",
-        title: "Battle-tested Excellence",
-        description:
-          "Our battle-tested mindset ensures we approach every case with strategic thinking and proven methodologies.",
-      },
-      {
-        icon: "/icon4.png",
-        title: "Client-Centered Service",
-        description:
-          "We provide dedicated advocacy and comprehensive legal protection tailored to each client's unique needs.",
-      },
-      {
-        icon: "icon1.png",
-        title: "Results-Driven Approach",
-        description:
-          "We are committed to achieving exceptional results through meticulous preparation and strategic execution.",
-      },
-    ];
+  const coreValues = [
+    {
+      icon: "/icon3.png",
+      title: "Justice & Integrity",
+      description:
+        "We are committed to upholding justice and maintaining the highest standards of integrity in all our legal practice.",
+    },
+    {
+      icon: "/icon2.png",
+      title: "Battle-tested Excellence",
+      description:
+        "Our battle-tested mindset ensures we approach every case with strategic thinking and proven methodologies.",
+    },
+    {
+      icon: "/icon4.png",
+      title: "Client-Centered Service",
+      description:
+        "We provide dedicated advocacy and comprehensive legal protection tailored to each client's unique needs.",
+    },
+    {
+      icon: "icon1.png",
+      title: "Results-Driven Approach",
+      description:
+        "We are committed to achieving exceptional results through meticulous preparation and strategic execution.",
+    },
+  ];
   return (
     <section className="bg-navy py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -66,6 +65,6 @@ const CoreValue = () => {
       </div>
     </section>
   );
-}
+};
 
 export default CoreValue;

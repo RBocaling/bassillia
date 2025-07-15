@@ -1,4 +1,3 @@
-import React from "react";
 import SubtitleGradient from "./SubtitleGradient";
 import { ArrowRight, BadgeCheck } from "lucide-react";
 

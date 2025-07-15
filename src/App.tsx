@@ -1,11 +1,10 @@
-import React from 'react';
-import Header from './components/Header';
-import Hero from './components/hero';
-import About from './components/About';
-import CoreValue from './components/CoreValue';
-import Services from './components/Sevices';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from "./components/Header";
+import Hero from "./components/hero";
+import About from "./components/About";
+import CoreValue from "./components/CoreValue";
+import Services from "./components/Sevices";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -16,9 +15,9 @@ const App = () => {
       <CoreValue />
       <Services />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;

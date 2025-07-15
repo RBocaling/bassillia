@@ -1,12 +1,9 @@
-import { ArrowRight, MapPin, Phone } from 'lucide-react';
-import React from 'react';
+import { ArrowRight, MapPin, Phone } from "lucide-react";
 
 const Hero = () => {
   return (
     <section className="relative py-12  bg-indigo-950">
-      <div className="h-[180px] md:h-[250px] bg-[#1E272E] z-10 relative w-full blur-2xl opacity-80">
-        
-      </div>
+      <div className="h-[180px] md:h-[250px] bg-[#1E272E] z-10 relative w-full blur-2xl opacity-80"></div>
       <div
         id="hero"
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -64,6 +61,6 @@ const Hero = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Hero;
