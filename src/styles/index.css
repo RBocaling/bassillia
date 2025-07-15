@@ -3,7 +3,9 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-
+*{
+  scroll-behavior: smooth;
+}
 
 #hero{
   background: linear-gradient(rgba(26, 32, 44, 0.99), rgba(17, 20, 27, 0.85)), url('/hero.jpg');

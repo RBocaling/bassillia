@@ -1,4 +1,4 @@
-import { ArrowRight, MapPin, Phone } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -37,25 +37,19 @@ const Hero = () => {
             </button>
           </div>
 
-          <div className="flex flex-row md:flex-col justify-between px-5 md:px-0 sm:flex-row md:items-center md:justify-center space-y-4 sm:space-y-0 sm:space-x-12 text-gray-300">
-            <div className="flex items-center space-x-3">
-              <div className="p-2 md:p-3 rounded-lg bg-amber-500/10">
-                <Phone className="text-gold text-lg " />
-              </div>
-              <div>
-                <p className="text-sm text-gold font-medium">Contact Us</p>
-                <p className="text-sm md:text-lg font-semibold">09178297891</p>
-              </div>
-            </div>
-            <div className="flex items-center space-x-3">
-              <div className="p-2 md:p-3 rounded-lg bg-amber-500/10">
-                <MapPin className="text-gold text-lg" />
-              </div>
-              <div>
-                <p className="text-sm text-gold font-medium">Located in</p>
-                <p className="text-sm md:text-lg font-semibold">Manila, NCR</p>
-              </div>
-            </div>
+          <div className="flex flex-row justify-between px-5 md:px-0 sm:flex-row md:items-center md:justify-center space-y-4 sm:space-y-0 sm:space-x-12 text-gray-300">
+            <a
+              href="#contact"
+              className="text-gold text-lg py-2.5 px-7 rounded-full border font-medium"
+            >
+              consultation
+            </a>
+            <a
+              href="#contact"
+              className="text-gold text-lg py-2.5 px-9 rounded-full border font-medium"
+            >
+              lets discuss your{" "}
+            </a>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 
 const Contact = () => {
   return (
-    <section className="bg-white py-20">
+    <section id="contact" className="bg-white py-20">
       <div className="bg-navy p-5 rounded-2xl py-20 container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold font-serif text-gold mb-4">
