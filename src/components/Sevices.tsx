@@ -1,5 +1,5 @@
 import SubtitleGradient from "./SubtitleGradient";
-import { ArrowRight, BadgeCheck } from "lucide-react";
+import { BadgeCheck } from "lucide-react";
 
 const Services = () => {
   const services = [
