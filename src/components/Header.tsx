@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, Phone, X } from "lucide-react";
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="fixed w-full top-0 left-0 z-50 py-4">
       <nav className="bg-white max-w-7xl mx-auto shadow-lg rounded-lg">
